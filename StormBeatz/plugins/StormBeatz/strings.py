@@ -79,7 +79,7 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
 
                     InlineKeyboardButton(
 
-                        "Support", url=f"https://t.me/StormSupportChat"
+                        "Support", url=f"https://t.me/NOOBCREATOR"
 
                     ),
 
