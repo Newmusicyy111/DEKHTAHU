@@ -13,35 +13,35 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import MUSIC_BOT_NAME as BOT_NAME
 
 BOT_USERNAME = app.username
-START_TEXT = f"""**Hello, MENTION !!\n\nThis is Storm Beatz Bot.\n\nA Powerfull music player bot with some awesome and usefull features.\n\nAll of my commands are listed in help button or You can find by /help.**
+START_TEXT = f"""**ʜɪ ɢᴜʏs, MENTION !!\n\nᴛʜɪs ɪs ᴅᴏʀᴀ ʀᴏʙᴏᴛ.\n\nᴛʜᴇ ᴘᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.\n\nᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴀʀᴇ ʟɪsᴛᴇᴅ ɪɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏ ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ʙʏ ᴛʏᴘᴇ /help.**
 """
 
 COMMANDS_TEXT = f"""
-✨ **Hello MENTION !**
-**Click on the buttons below to know my commands.**
+✨ **ʜᴇʟʟᴏ MENTION !**
+**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.**
 """
 
 START_BUTTON_GROUP = InlineKeyboardMarkup(
     [   
         [
             InlineKeyboardButton(
-                text="📚 All Commands", callback_data="settings_back_helper"
+                text="ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs", callback_data="settings_back_helper"
             ),
             InlineKeyboardButton(
-                text="Dev", url="https://t.me/fLyLoNg"
+                text="ᴏᴡɴᴇʀ", url="https://t.me/fLyLoNg"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="Updates", url="https://t.me/NOOBXCREATOR"
+                text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/NOOBXCREATOR"
             ),
             InlineKeyboardButton(
-                text="Support", url="https://t.me/NOOBCREATOR"
+                text="sᴏᴘᴘᴏʀᴛ", url="https://t.me/NOOBCREATOR"
             ),                       
         ],        
         [
             InlineKeyboardButton(
-                text="🔗 Deploy your own bot", url="https://t.me/pirokid"
+                text="ɢɪғᴛ ʜᴇʀᴇ", url="https://t.me/pirokid"
             ),                                  
         ]
     ]
@@ -51,7 +51,7 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
 
-                        "Add me to your group ➕",
+                        "ᴀᴅᴅ ᴍᴇ ɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ",
 
                         url=f"https://t.me/DORAROBOT?startgroup=true",
 
@@ -59,7 +59,7 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
 
                 ],
 
-                [InlineKeyboardButton("Help", callback_data="settings_back_helper")],
+                [InlineKeyboardButton("ʜᴇʟᴘ", callback_data="settings_back_helper")],
 
                 
 
@@ -73,19 +73,19 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
 
                     InlineKeyboardButton(
 
-                        "Updates", url=f"https://t.me/NOOBXCREATOR"
+                        "ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/NOOBXCREATOR"
 
                     ),
 
                     InlineKeyboardButton(
 
-                        "Support", url=f"https://t.me/NOOBCREATOR"
+                        "sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/NOOBCREATOR"
 
                     ),
 
                 ],
                 [
-                 InlineKeyboardButton("🏳️‍🌈 Language", callback_data="LG"
+                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data="LG"
             ),
         ],
     ]
