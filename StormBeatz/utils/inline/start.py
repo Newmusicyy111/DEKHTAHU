@@ -14,23 +14,23 @@ def start_pannel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="📚 All Commands", callback_data="settings_back_helper"
+                text="ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs", callback_data="settings_back_helper"
             ),
             InlineKeyboardButton(
-                text="Dev", url="https://t.me/Xd_Nitric"
+                text="ʙᴏᴛ ᴏᴡɴᴇʀ", url="https://t.me/flylong"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="Updates", url="https://t.me/StormUpdates"
+                text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/noobxcreator"
             ),
             InlineKeyboardButton(
-                text="Support", url="https://t.me/StormSupportChat"
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/noobcreator"
             ),                       
         ],        
         [
             InlineKeyboardButton(
-                text="🔗 Deploy your own bot", url="https://github.com/StormBeatz/StormBeatz"
+                text="ɢɪғᴛ ʜᴇʀᴇ", url="https://t.me/pirokid"
             ),                                  
         ]
     ]
@@ -41,29 +41,29 @@ def private_panel(_, BOT_USERNAME):
     buttons = [
         [
             InlineKeyboardButton(
-                text="Add me to your group ➕",
+                text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Help", callback_data="settings_back_helper"
+                text="ʜᴇʟᴘ", callback_data="settings_back_helper"
             ),
         ],
         [
-            InlineKeyboardButton(text="Updates", url=f"https://t.me/StormUpdates"),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/noobxcreator"),
             InlineKeyboardButton(
-                text="Support", url=f"https://t.me/StormSupportChat"
+                text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/noobcreator"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="🏳️‍🌈 Language", callback_data="LG"
+                    text="ʟᴀɴɢᴜᴀɢᴇ", callback_data="LG"
                 )
         ],
         [
             InlineKeyboardButton(
-                text="🔗 Deploy your own bot", url="https://github.com/StormBeatz/StormBeatz"
+                text="ɢɪғᴛ ʜᴇʀᴇ", url="https://t.me/pirokid"
             )
         ]
      ]
